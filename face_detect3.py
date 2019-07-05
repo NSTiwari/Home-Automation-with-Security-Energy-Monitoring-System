@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 recognizer=cv2.face.LBPHFaceRecognizer_create();
-path = 'Train'
+path = 'train'
 
 def getimage(path):
     imagepaths = [os.path.join(path, f) for f in os.listdir(path)]
