@@ -16,7 +16,7 @@ while(isopen.isOpened()):
             cv2.imshow("temp", roi_color)
 
             cv2.waitKey(100)
-            cv2.imwrite("train/mummy.2." + str(i) + ".png", roi_color)
+            cv2.imwrite("train/nitin.1." + str(i) + ".png", roi_color)
             print(i)
 
         cv2.imshow("img", img)
