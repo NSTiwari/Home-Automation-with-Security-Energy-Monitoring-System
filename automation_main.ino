@@ -118,7 +118,7 @@ void loop()
       digitalWrite(Relay6,LOW);
       val6=0;
     }
-    delay(200);
+    delay(200); //delay of 200 millisecond
     }
 
     
